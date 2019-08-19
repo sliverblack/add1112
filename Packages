@@ -1,0 +1,64 @@
+Package: libactivator_1.9.13~beta5
+Name: Activator
+Architecture: iphoneos-arm
+Version: 1.9.13~beta5
+Description: Centralized gestures, button and shortcut management for iOS
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Author: Ryan Petrich
+Section: System
+Filename: ./Debs/libactivator_1.9.13~beta5.deb
+Size: 706942
+MD5sum: 38f38c4139ffae73694611c472cb990a
+Depends: com.rpetrich.rocketbootstrap (>= 1.0.7),com.a3tweaks.flipswitch (>= 1.0.16), preferenceloader (>= 2.2.4),applist (>= 1.5.15)
+
+Package: applist_1.5.15~beta1
+Name: AppList
+Architecture: iphoneos-arm
+Version: 1.5.15~beta1
+Description: Allow extensions to read the list of installed apps
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Author: Ryan Petrich
+Section: System
+Filename: ./Debs/applist_1.5.15~beta1.deb
+Size: 104730
+MD5sum: 2fca5a5135a60e2c4c58ba4cb4575e8b
+Depends: com.rpetrich.rocketbootstrap (>= 1.0.7)
+
+Package: com.a3tweaks.flipswitch_1.0.16~beta5
+Name: Flipswitch
+Architecture: iphoneos-arm
+Version: 1.0.16~beta5
+Description: Centralized toggle system for iOS
+Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
+Author: Ryan Petrich
+Section: System
+Filename: ./Debs/com.a3tweaks.flipswitch_1.0.16~beta5.deb
+Size: 295290
+MD5sum: bc4367203fea35280087c4c3cf5a8ca0
+Depends: com.rpetrich.rocketbootstrap (>= 1.0.7)
+
+Package: preferenceloader_2.2.4~beta1
+Name: PreferenceLoader
+Architecture: iphoneos-arm
+Version: 2.2.4~beta1
+Description: load preferences in style
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Author: Dustin Howett
+Section: System
+Filename: ./Debs/preferenceloader_2.2.4~beta1.deb
+Size: 33838
+MD5sum: 61efed5a8aa8507208731da2d737c882
+Depends: com.rpetrich.rocketbootstrap (>= 1.0.7)
+
+Package: com.rpetrich.rocketbootstrap_1.0.7~beta3
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Version: 1.0.7~beta3
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: BigBoss
+Section: Tweaks
+Filename: ./Debs/com.rpetrich.rocketbootstrap_1.0.7~beta3.deb
+Size: 37990
+MD5sum: 7c693be81595deb417858ffc5ae8cd10
+Depends: com.rpetrich.rocketbootstrap (>= 1.0.7)
